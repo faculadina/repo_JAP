@@ -1,3 +1,43 @@
+.imgLogin {
+  padding-top: 5px;
+  width: 350px;
+  align-content: center;
+  align-items: center;
+  
+}
+
+label {
+
+  font-size: large;
+}
+
+.usuario {
+
+  padding-left: 28px;
+
+}
+
+
+h3 {
+
+  font-size: 28px;
+
+}
+
+form {
+
+  padding-left: 2px;
+}
+
+
+.divLogin {
+  width: 360px;
+  background-color: gray;
+  margin: 100px auto;
+  margin-bottom: 5px;
+  justify-content: center;
+}
+
 .jumbotron, .card-body, .container, .site-header{
     font-family: 'Raleway', serif !important;
 }
