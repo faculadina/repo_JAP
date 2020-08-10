@@ -15,10 +15,8 @@ body {
 .btnLogin {
   font-weight: 600;
   background-color: #f5f5f5;
-  border:2px;
   font-size: 15px;
   border-radius: 5px;
-  background-color: rgba(17, 93, 194, 0.74);
 }
 
 
