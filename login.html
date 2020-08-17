@@ -30,7 +30,7 @@
     <input type="email" id="email" required placeholder="Email" size="15px"><br>
     <label class="contraseña" for="password">Contraseña:</label>
     <input type="password" id="password" required placeholder="Contraseña" size="15px"><br>
-    <button class="btnLogin" onclick="compLogin();">Ingresar</button>
+    <button class="btnLogin" onclick="successLogin();">Ingresar</button>
     </form>
   </div>
   
@@ -38,7 +38,7 @@
   <script src="js/login.js"></script>
 
   <script>
-    function compLogin(){
+    function successLogin(){
       localStorage.setItem("contador", 1);
     }
   </script>
