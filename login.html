@@ -30,13 +30,17 @@
     <input type="email" id="email" required placeholder="Email" size="15px"><br>
     <label class="contraseña" for="password">Contraseña:</label>
     <input type="password" id="password" required placeholder="Contraseña" size="15px"><br>
-    <button class="btnLogin">Ingresar</button>
+    <button class="btnLogin" onclick="compLogin();">Ingresar</button>
     </form>
   </div>
   
-  
-
   <script src="js/init.js"></script>
   <script src="js/login.js"></script>
+
+  <script>
+    function compLogin(){
+      localStorage.setItem("contador", 1);
+    }
+  </script>
 </body>
 </html>
